@@ -1,4 +1,4 @@
-# Joint Intent Detection and Slot Filling in Persian
+# Joint Intent Detection and Slot Filling in Persian banking-related user queries and commands
 
 ## 📝 Overview
 
