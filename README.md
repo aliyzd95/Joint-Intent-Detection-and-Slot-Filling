@@ -21,10 +21,10 @@ The dataset used in this project consists of **3,307 Persian utterances**, most 
 
 | Slot Tags                              | Intent           | Sentence                                        |
 |----------------------------------------|------------------|-------------------------------------------------|
-| O O O O O                              | balance_query    | بگو چند ریال پول دارم.                          |
+| O O O O O                              | balance_query    | .بگو چند ریال پول دارم                          |
 | O O B-Bankname O O O                   | balance_query    | توی کارت ملتم چقدر پول دارم؟                   |
-| O O B-Billname I-Billname O O ...      | bill_payment     | قصد دارم قبض آب ماه جاری رو پرداخت کنم.        |
-| O O O O B-Amount I-Amount I-Amount ... | transaction_card | من می‌خوام مبلغ 200 هزار تومان رو کارت به کارت کنم. |
+| O O B-Billname I-Billname O O ...      | bill_payment     | .قصد دارم قبض آب ماه جاری رو پرداخت کنم        |
+| O O O O B-Amount I-Amount I-Amount ... | transaction_card | .من می‌خوام مبلغ 200 هزار تومان رو کارت به کارت کنم |
 
 
 
